@@ -647,26 +647,26 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .btn.btn-primary {
-  border: 2px solid #903479;
-  background: #903479;
+  border: 2px solid #00457E ;
+  background: #00457E;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
-  background: #6b265a;
+  background: #00457E;
   color: #ffffff;
-  border: 2px solid #6b265a;
+  border: 2px solid #00457E;
 }
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 2px solid #6b265a;
+  border: 2px solid #00457E;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 2px solid #903479;
-  color: #903479;
+  border: 2px solid #00457E;
+  color: #00457E;
 }
 
 .btn.btn-ghost:hover {

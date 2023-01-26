@@ -12,11 +12,11 @@
             
             <li class="active"><a href="{{ route('master') }}">Home</a></li>
             <li ><a href="{{ url('about') }}">About</a></li>
-            {{-- <li><a href="rooms.html">Our Rooms</a></li> --}}
+            <li><a href="rooms.html">Our Rooms</a></li>
             <li class="hidden-xs probootstrap-logo-center"><a href="index.html"><img src="img/logo_md.png" class="hires" width="181" height="50" alt="Free Bootstrap Template by uicookies.com"></a></li>
             <li><a href="{{ route('reservation') }}">Reservation</a></li>
             {{-- <li><a href="blog.html">Blog</a></li> --}}
-            {{-- <li><a href="{{ route('contact') }}">Contact</a></li> --}}
+            <li><a href="{{ url ('contact') }}">Contact</a></li>
           </ul>
           <div class="extra-text visible-xs">
             <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>

@@ -7,7 +7,7 @@
     <title>uiCookies:Atlantis &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
     <meta name="description" content="Free Bootstrap Theme by uicookies.com">
     <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
-    
+     <link rel="stylesheet" href="userSide/css/style.css">
     @include('userSide.style')
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -23,14 +23,14 @@
 
 <section class="probootstrap-slider flexslider probootstrap-inner">
     <ul class="slides">
-       <li style="background-image: url(img/slider_1.jpg);" class="overlay">
+       <li style="background-image: url(userSide/img/QUkWv.jpg);" class="overlay">
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
                 <div class="probootstrap-slider-text text-center">
-                  <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p>
+                  {{-- <p><img src="img/curve_white.svg" class="seperator probootstrap-animate" alt="Free HTML5 Bootstrap Template"></p> --}}
                   <h1 class="probootstrap-heading probootstrap-animate">Contact</h1>
-                  <div class="probootstrap-animate probootstrap-sub-wrap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                  <div class="probootstrap-animate probootstrap-sub-wrap"></div>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@
     <div class="container">
       <div class="row probootstrap-gutter60">
         <div class="col-md-8">
-          <h2 class="mt0">Contact Form</h2>
+          <h2 class="mt0">We can do this together, let’s try.</h2>
           <form action="#" method="post" class="probootstrap-form">
             <div class="row">
               <div class="col-md-6">
@@ -79,13 +79,13 @@
         <div class="col-md-4">
           <h2 class="mt0">Get In Touch</h2>
           <ul class="probootstrap-contact-info">
-            <li><i class="icon-location2"></i> <span>198 West 21th Street, Suite 721 New York NY 10016</span></li>
-            <li><i class="icon-mail"></i><span>info@domain.com</span></li>
-            <li><i class="icon-phone2"></i><span>+123 456 7890</span></li>
+            <li><i class="icon-location2"></i> <span>Aqaba,Jordan</span></li>
+            <li><i class="icon-mail"></i><span>info@fieldsCorner.com</span></li>
+            <li><i class="icon-phone2"></i><span>+962 03247814<span></li>
           </ul>
           <h2>Feedback</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Send Message</a></p>
+          <p>At fields corner Stadium we welcome your feedback at all times. Your comments and suggestions are greatly appreciated and help us to continually improve our operation. All comments received will be treated in confidence as per our. </p>
+          
         </div>
       </div>
     </div>

@@ -34,6 +34,6 @@ Route::get('/login',[login::class,'index'])->name('login');
 Route::get('/about', function () {
     return view('userSide.about');
 });
-// Route::get('contact', function () {
-//     return view('userSide.contact');
-// });
+Route::get('contact', function () {
+    return view('userSide.contact');
+});
